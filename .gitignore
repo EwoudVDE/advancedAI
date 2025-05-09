@@ -1,0 +1,17 @@
+# Ignore python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environment
+venv/
+
+# Ignore model weights and datasets
+*.weights
+dataset/
+*.zip
+tar_files/
+images/
+labels/
+DefinedTS/
+BelgiumTSD_annotations/

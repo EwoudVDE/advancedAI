@@ -1,0 +1,11 @@
+use smaller set
+convert to yolo data
+split
+change ids
+
+
+focal loss
+class wieghts
+Hyperparameter Tuning
+Model Post-Processing Adjustments
+Post-Training Evaluation and Deployment
