@@ -5,6 +5,7 @@ __pycache__/
 
 # Ignore virtual environment
 venv/
+.venv/
 
 # Ignore model weights and datasets
 *.weights
@@ -20,3 +21,4 @@ yolo11n.pt
 yolov8n.pt
 testImages/
 external/ultralytics/runs/
+testing/
