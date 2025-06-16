@@ -5,7 +5,7 @@ from torchvision import transforms
 from ultralytics import YOLO
 
 # Load your YOLOv8 model (with your custom weights)
-model = YOLO('external/ultralytics/runs/detect/train/weights/best.pt')
+model = YOLO('runs/detect/train/weights/best.pt')
 
 # Prepare your input image
 img_path = 'testImages/Capture.png'
