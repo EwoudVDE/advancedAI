@@ -1,7 +1,7 @@
 import os
 from PIL import Image, ImageDraw
 import matplotlib.pyplot as plt
-
+# Shows image and bounding box after annotations are converted
 # Define your paths
 image_folder = './dataset/train/images'
 annotation_folder = './dataset/train/labels'
