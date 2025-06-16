@@ -1,7 +1,7 @@
 import os
 from PIL import Image, ImageDraw
 import matplotlib.pyplot as plt
-
+# Shows image and bounding box before annotations are converted
 # Set paths
 image_folder = './dataset/train/images'
 annotation_file = './BelgiumTSD_annotations/BTSD_testing_GTclear.txt'

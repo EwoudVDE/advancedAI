@@ -15,3 +15,8 @@ images/
 labels/
 DefinedTS/
 BelgiumTSD_annotations/
+runs/
+yolo11n.pt
+yolov8n.pt
+testImages/
+external/ultralytics/runs/
