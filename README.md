@@ -14,6 +14,8 @@ Install dependencies using:
 
 ```bash
 pip install -r requirements.txt
+git submodule update --init --recursive
+
 ```
 
 ## 3. Preprocessing
