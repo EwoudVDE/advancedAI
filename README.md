@@ -1,6 +1,7 @@
 # Setup
 
 ## 1. Download Dataset Files
+
 Download and extract the following files from the [BelgiumTS dataset](https://btsd.ethz.ch/shareddata/):
 
 - `DefinedTS.tar.gz`
@@ -9,7 +10,10 @@ Download and extract the following files from the [BelgiumTS dataset](https://bt
 - `Annotations/annotations.tar`
 - `Annotations/BelgiumTSD_annotations.zip`
 
+Put all the images in a /images folder
+
 ## 2. Install Requirements
+
 Install dependencies using:
 
 ```bash
@@ -52,6 +56,7 @@ Modify hyperparameters in the command or data.yaml to experiment.
 Ensure your data.yaml file has correct paths and class names.
 
 To test the model use:
+
 ```bash
 yolo detect predict model=path/to/model.pt source=path/to/Screenshot.png
 ```
@@ -64,14 +69,17 @@ This project uses the **BelgiumTS** dataset by Radu Timofte and collaborators.
 [https://btsd.ethz.ch/shareddata/](https://btsd.ethz.ch/shareddata/)
 
 ## Third-Party Code
+
 This project uses modified versions of:
 
 ### [Ultralytics YOLOv8](https://github.com/EwoudVDE/ultralytics)
-- **Purpose**:CBAM 
+
+- **Purpose**:CBAM
 - **Modifications**: CBAM
-- **License**: [AGPL-3.0](licenses/ultralytics-LICENSE)  
-- **Original Source**: [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)  
+- **License**: [AGPL-3.0](licenses/ultralytics-LICENSE)
+- **Original Source**: [ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
 
 ### [YOLO-V11-CAM](https://github.com/rigvedrs/YOLO-V11-CAM)
-- **Purpose**: Class activation maps  
-- **License**: [MIT](licenses/YOLO-V11-CAM-LICENSE)  
+
+- **Purpose**: Class activation maps
+- **License**: [MIT](licenses/YOLO-V11-CAM-LICENSE)
